@@ -3,11 +3,6 @@
 # Author: Hanzhang
 # Version: 2.0.0
 
-# Data Flow Design Principles:
-# 1. Data -> Extract coordinates -> Build layers -> Apply styles -> Output
-# 2. Each function does one thing only
-# 3. Use data structures rather than parameters to control behavior
-
 library(Seurat)
 library(ggplot2)
 library(dplyr)
